@@ -1,0 +1,69 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &7395388886202946396
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7395388886202946394}
+  - component: {fileID: 7395388886202946395}
+  m_Layer: 0
+  m_Name: Spawner
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7395388886202946394
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7395388886202946396}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7395388886202946395
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7395388886202946396}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 76c4c066865df6d41ac8b3986ebc85ab, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  objectsToSpawn:
+  - {fileID: 6954168400445102113, guid: 4899f8f5f8da96a43850818300cd5507, type: 3}
+  - {fileID: 1744777639364271300, guid: 167a11c11f79303459d35161950b1970, type: 3}
+  - {fileID: 4360737175467560718, guid: d94722253cb0cc545891c040c97e91e9, type: 3}
+  - {fileID: 6086310455285473587, guid: 1436ca440ccefb448806702da4d95a80, type: 3}
+  - {fileID: 8812144499855599859, guid: 7e6f3bdcf1446f74b940702ed589b5e0, type: 3}
+  - {fileID: 9140858069472844981, guid: 43065c6767c3bb745819d3b8a8ab3c66, type: 3}
+  - {fileID: 7184599595629932892, guid: 3bed2cef4831372489d5b92531bd9aea, type: 3}
+  - {fileID: 2553029577107244517, guid: 14b7d9764adccb24fac6f46758023c1d, type: 3}
+  - {fileID: 2237693564310523121, guid: bbc97fbbcd815e445969e66002a5bdda, type: 3}
+  - {fileID: 4027425152510069284, guid: 0cf64b68d9f54c14fa60f2d04ece5305, type: 3}
+  - {fileID: 3153685902989120210, guid: 6e619b9f4c177ac4683b110fb24a677c, type: 3}
+  playerTransform: {fileID: 7209247116677129990, guid: 9461a0dec66e9134ea4f20af28b65a5c, type: 3}
+  initialSpawnInterval: 2
+  minSpawnInterval: 3
+  spawnIntervalDecrease: 0.5
+  objectSpeed: 1
+  objectLifetime: 30
+  spawnPoints:
+  - {fileID: 1763890499917566080, guid: c323c7a12e8d5b34eb5c6ba0a7c5b13a, type: 3}
+  - {fileID: 3799514277069274245, guid: a1f8771316ba24f4f9b692dd50d72e70, type: 3}
+  - {fileID: 6646359789461143723, guid: 365b6a9b5c54fe2409a0dab67ab6f7eb, type: 3}
+  - {fileID: 4490519379887664243, guid: 32a558225e236224e989728a69c677c8, type: 3}
